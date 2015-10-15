@@ -26,7 +26,7 @@
         </h2>
       </header>
       <main>
-        <article class="top">
+        <section class="top">
           <h2>
             What Are Periscope and Meerkat?
           </h2>
@@ -40,16 +40,35 @@
             Meerkat and Periscope are two of the world's best, most innovative live
             streaming video apps
           </p>
-        </article>
-        <article class="middle">
-          <h3>Meerkat</h3>
-          <h3>Both</h3>
-          <h3>Periscope</h3>
-          <svg version="1.1" width="150">
-
+        </section>
+        <section class="middle">
+          <article class="middleHeader">
+            <h3>Meerkat</h3>
+            <h3>Both</h3>
+            <h3>Periscope</h3>
+          </article>
+          <article class="diagramImg">
+            <aside class="leftImages">
+              <img src="img/speechbubble.png" alt="Speech Bubble" />
+            </aside>
+            <aside class="middleImages">
+              <img src="img/wifi.png" alt="Wifi" />
+              <img src="img/people.png" alt="People" />
+              <img src="img/phone.png" alt="" />
+            </aside>
+            <aside class="rightImages">
+              <img id="bird" src="img/bird.png" alt="Bird" />
+              <img id="camera" src="img/camera.png" alt="Camera" />
+              <img id="padlock" src="img/padlock.png" alt="Padlock" />
+              <img id="mBubble" src="img/messagebubble.png" alt="Message Bubble" />
+            </aside>
+          </article>
+          <svg version="1.1" width="1000" height="750">
+            <circle id="meerkatCircle" class="circle" cx="350" cy="350" r="300" style="fill: #FDE200"/>
+            <circle id="periscopeCircle"class="circle" cx="650" cy="350" r="300" style="fill: #3990AF"/>
           </svg>
-        </article>
-        <article class="">
+        </section>
+        <section class="">
           <h2>Both Periscope and Meerkat</h2>
           <ul>
             <li>
@@ -83,7 +102,7 @@
               Host account can interact with audiences through each video's comments section
             </li>
           </ul>
-        </article>
+        </section>
       </main>
       <footer>
         <a href="#">
@@ -91,9 +110,11 @@
         </a>
       </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="scripts/velocity.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="scripts/animation.velocity.min.js"></script>
     <script src="scripts/script.js"></script>
   </body>
 </html>

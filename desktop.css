@@ -67,6 +67,62 @@ main{
   clear: both;
 }
   /* Middle Section */
+.middleHeader{
+  width: 100%;
+  margin-top: 50px;
+}
+.middle h3{
+  font-size: 1.8em;
+  font-weight: bold;
+  display: inline;
+  margin: 0 12.25%;
+}
+.diagramImg{
+  position: absolute;
+  width: 1000px;
+}
+.diagramImg aside{
+  width: 250px;
+  float: left;
+}
+.diagramImg aside img{
+  display: block;
+  transform: scale(.7,.7);
+  transition: all 0.5s ease-in-out;
+  margin: 0 auto 30px auto;
+}
+.diagramImg img:hover{
+  transform: scale(.9,.9);
+}
+.leftImages{
+  margin: 270px 0 0 150px;
+}
+.middleImages{
+  margin: 70px 0 0 15px;
+  transform: scale(.8,.8);
+}
+.rightImages{
+  margin: 50px 0 0 0;
+}
+#bird{
+  margin-left: -30px;
+}
+#camera{
+  margin-left: 75px
+}
+#padlock{
+  margin-left: 120px
+}
+#mBubble{
+  margin: 0 0 0 -30px;
+}
+svg{
+  margin-left: 4%;
+}
+.circle{
+  opacity: 0;
+}
+    /* Animations */
 /* Footer */
 
 }
