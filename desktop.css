@@ -80,6 +80,9 @@ main{
 .diagramImg{
   position: absolute;
   width: 1000px;
+  transform: translateY(-100px);
+  transition: transform 0.3s ease-out;
+  opacity: 0;
 }
 .diagramImg aside{
   width: 250px;
@@ -88,7 +91,7 @@ main{
 .diagramImg aside img{
   display: block;
   transform: scale(.7,.7);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
   margin: 0 auto 30px auto;
 }
 .diagramImg img:hover{
@@ -123,6 +126,12 @@ svg{
   opacity: 0;
 }
     /* Animations */
+.moveDown{
+  transform: translateY(0px);
+  opacity: 1;
+}
+  /* Bottom Section */
+
 /* Footer */
 
 }
