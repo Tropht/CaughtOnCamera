@@ -130,7 +130,7 @@ svg{
 .circle{
   opacity: 0;
 }
-#meerkatCircleTablet, #periscopeCircleTablet{
+#meerkatCircleTablet, #periscopeCircleTablet, #meerkatCirclePhone, #periscopeCirclePhone{
   display: none;
 }
     /* Animations */
