@@ -1,3 +1,209 @@
-@media only screen and (min-width: 481px) and (max-width: 1140px) {
+@media only screen and (min-width: 551px) and (max-width: 1140px) {
+body{
+  background-color: #D3C7AF;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+a:link, a:visited, a:hover, a:active {
+		color: black;
+		text-decoration: none;
+}
+/* Header */
+header{
+  text-align: center;
+}
+header h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+}
+header h2{
+  font-size: 3em;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+/* Main Content */
+
+  /* Top Section */
+.top{
+  text-align: center;
+  margin-top: 20px;
+}
+.top h2{
+  font-size: 2.5em;
+  font-weight: bold;
+  border-top: 2px solid black;
+  padding-top: 30px;
+  width: 85%;
+  margin: auto;
+}
+.top img{
+  transform: scale(.1,.1);
+}
+.meerkat, .periscope{
+  height: 400px;
+  width: 46%;
+  /*display: inline;*/
+}
+.meerkat{
+  background-image: url('img/meerkat2.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  float: left;
+}
+.periscope{
+  background-image: url('img/periscope2.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  float: right;
+}
+.top p{
+  width: 85%;
+  font-size: 2em;
+  font-weight: lighter;
+  margin: auto;
+  clear: both;
+}
+  /* Middle Section */
+.middleHeader{
+  width: 100%;
+  margin-top: 50px;
+}
+.middle h3{
+  font-size: 1.8em;
+  font-weight: bold;
+  display: inline;
+  margin: 0 10%;
+}
+.diagramImg{
+  position: absolute;
+  width: 100%;
+  transform: translateY(-100px);
+  transition: transform .8s ease-out;
+  opacity: 0;
+}
+.diagramImg aside{
+  width: 190px;
+  float: left;
+}
+.diagramImg aside img{
+  display: block;
+  transform: scale(.5,.5);
+  transition: all .3s ease-in-out;
+  margin: 0 auto 30px auto;
+}
+.diagramImg img:hover{
+  transform: scale(.6,.6);
+}
+.leftImages{
+  margin: 270px 0 0 50px;
+}
+.middleImages{
+  margin: 70px 0 0 100px;
+  transform: scale(.8,.8);
+}
+.rightImages{
+  margin: 50px 0 0 20px;
+}
+#wifi{
+  margin-top: 30px;
+}
+#phone{
+  margin-top: -30px;
+}
+#bird{
+  margin: 30px 0 0 -30px;
+}
+#camera{
+  margin-left: 75px
+}
+#padlock{
+  margin-left: 120px
+}
+#mBubble{
+  margin: -30px 0 0 -30px;
+}
+svg{
+  margin-left: 4%;
+  width: 100%;
+  height: 700px;
+}
+.circle{
+  opacity: 0;
+}
+#meerkatCircle, #periscopeCircle{
+  display: none;
+}
+    /* Animations */
+.moveDown{
+  transform: translateY(0px);
+  opacity: 1;
+}
+  /* Bottom Section */
+.bottom{
+  text-align: center;
+}
+.headerLineTop{
+  width: 60%;
+  left: 20%;
+  margin-top: 15px;
+  border-top: 2px solid black;
+  position: absolute;
+}
+.headerLineBottom{
+  width: 55%;
+  height: 10px;
+  left: 23%;
+  margin-top: 15px;
+  border-bottom: 2px solid black;
+  position: absolute;
+}
+.bottom h2{
+  font-size: 2.5em;
+  font-weight: bold;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  background-color: #D3C7AF;
+}
+.bottom ul{
+  margin-left: 10%;
+}
+.bottom ul li{
+  text-align: left;
+  font-weight: lighter;
+  margin: 20px 0;
+  font-size: 1.2em;
+  list-style-type: disc;
+}
+#header1, #header2, #header3{
+  opacity: 0;
+  transition: all .8s ease-in-out;
+  margin-left: 85px;
+}
+    /* Animations */
+.moveRight{
+  transform: translateX(100px);
+}
+/* Footer */
+footer{
+  margin-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+footer img{
+  transform: scale(.8,.8);
+  margin: auto;
+}
+.footerImg{
+  width: 45%;
+  margin: auto;
+}
+
 
 }

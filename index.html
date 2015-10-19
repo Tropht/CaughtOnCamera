@@ -52,9 +52,9 @@
               <img src="img/speechbubble.png" alt="Speech Bubble" />
             </aside>
             <aside class="middleImages">
-              <img src="img/wifi.png" alt="Wifi" />
-              <img src="img/people.png" alt="People" />
-              <img src="img/phone.png" alt="" />
+              <img id="wifi" src="img/wifi.png" alt="Wifi" />
+              <img id="people" src="img/people.png" alt="People" />
+              <img id="phone" src="img/phone.png" alt="" />
             </aside>
             <aside class="rightImages">
               <img id="bird" src="img/bird.png" alt="Bird" />
@@ -63,13 +63,22 @@
               <img id="mBubble" src="img/messagebubble.png" alt="Message Bubble" />
             </aside>
           </article>
-          <svg version="1.1" width="1000" height="750">
+          <svg version="1.1">
             <circle id="meerkatCircle" class="circle" cx="350" cy="350" r="300" style="fill: #FDE200"/>
-            <circle id="periscopeCircle"class="circle" cx="650" cy="350" r="300" style="fill: #3990AF"/>
+            <circle id="periscopeCircle" class="circle" cx="650" cy="350" r="300" style="fill: #3990AF"/>
+
+            <circle id="meerkatCircleTablet" class="circle" cx="250" cy="350" r="250" style="fill: #FDE200"/>
+            <circle id="periscopeCircleTablet"class="circle" cx="550" cy="350" r="250" style="fill: #3990AF"/>
           </svg>
         </section>
         <section class="bottom">
-          <h2>Both Periscope and Meerkat</h2>
+          <div class="headerLineTop"></div>
+          <div class="headerLineBottom"></div>
+          <a href="#">
+            <h2 id="header1">
+              Both Periscope and Meerkat
+            </h2>
+          </a>
           <ul>
             <li>
               Apps allow for live video streams to be viewed online
@@ -81,7 +90,13 @@
               Available for both iPhone and Android smartphones
             </li>
           </ul>
-          <h2>Only Periscope</h2>
+          <div class="headerLineTop"></div>
+          <div class="headerLineBottom"></div>
+          <a href="#">
+            <h2 id="header2">
+              Only Periscope
+            </h2>
+          </a>
           <ul>
             <li>
               Allows for video streams to be shared through Twitter
@@ -96,7 +111,13 @@
               Comments can be turned both on and off
             </li>
           </ul>
-          <h2>Only Meerkat</h2>
+          <div class="headerLineTop"></div>
+          <div class="headerLineBottom"></div>
+          <a href="#">
+            <h2 id="header3">
+              Only Meerkat
+            </h2>
+          </a>
           <ul>
             <li>
               Host account can interact with audiences through each video's comments section
@@ -105,12 +126,16 @@
         </section>
       </main>
       <footer>
-        <a href="#">
+        <div class="footerImg">
+          <img src="img/fusionlogo.png" alt="Fusion Logo" />
+        </div>
+        <a href="http://blog.lewispr.com/2015/04/the-differences-between-meerkat-and-periscope-infographic.html">
           http://blog.lewispr.com/2015/04/the-differences-between-meerkat-and-periscope-infographic.html
         </a>
       </footer>
     </div>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
     <script src="scripts/velocity.min.js"></script>
     <script src="scripts/TweenMax.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>

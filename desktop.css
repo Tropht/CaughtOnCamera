@@ -8,6 +8,10 @@ body{
   margin: auto;
   margin-top: 50px;
 }
+a:link, a:visited, a:hover, a:active {
+		color: black;
+		text-decoration: none;
+}
 /* Header */
 header{
   text-align: center;
@@ -24,8 +28,7 @@ header h2{
   border-bottom: 2px solid black;
 }
 /* Main Content */
-main{
-}
+
   /* Top Section */
 .top{
   text-align: center;
@@ -81,7 +84,7 @@ main{
   position: absolute;
   width: 1000px;
   transform: translateY(-100px);
-  transition: transform 0.3s ease-out;
+  transition: transform .8s ease-out;
   opacity: 0;
 }
 .diagramImg aside{
@@ -91,7 +94,7 @@ main{
 .diagramImg aside img{
   display: block;
   transform: scale(.7,.7);
-  transition: all 0.2s ease-in-out;
+  transition: all .3s ease-in-out;
   margin: 0 auto 30px auto;
 }
 .diagramImg img:hover{
@@ -121,9 +124,14 @@ main{
 }
 svg{
   margin-left: 4%;
+  width: 1000px;
+  height: 750px;
 }
 .circle{
   opacity: 0;
+}
+#meerkatCircleTablet, #periscopeCircleTablet{
+  display: none;
 }
     /* Animations */
 .moveDown{
@@ -131,7 +139,64 @@ svg{
   opacity: 1;
 }
   /* Bottom Section */
-
+.bottom{
+  text-align: center;
+}
+.headerLineTop{
+  width: 60%;
+  left: 20%;
+  margin-top: 15px;
+  border-top: 2px solid black;
+  position: absolute;
+}
+.headerLineBottom{
+  width: 55%;
+  height: 10px;
+  left: 23%;
+  margin-top: 15px;
+  border-bottom: 2px solid black;
+  position: absolute;
+}
+.bottom h2{
+  font-size: 2.5em;
+  font-weight: bold;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  background-color: #D3C7AF;
+}
+.bottom ul{
+  margin-left: 10%;
+}
+.bottom ul li{
+  text-align: left;
+  font-weight: lighter;
+  margin: 20px 0;
+  font-size: 1.2em;
+  list-style-type: disc;
+}
+#header1, #header2, #header3{
+  opacity: 0;
+  transition: all .8s ease-in-out;
+  margin-left: 190px;
+}
+    /* Animations */
+.moveRight{
+  transform: translateX(100px);
+}
 /* Footer */
+footer{
+  margin-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+footer img{
+  transform: scale(.8,.8);
+  margin: auto;
+}
+.footerImg{
+  width: 45%;
+  margin: auto;
+}
 
 }
